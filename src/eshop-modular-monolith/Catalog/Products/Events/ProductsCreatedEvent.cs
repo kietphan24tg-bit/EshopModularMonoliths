@@ -1,8 +1,9 @@
 ﻿using System;
+using Catalog.Products.Models;
+namespace Catalog.Products.Events;
 
-public class Class1
+
+    public record ProductPriceChangeEvent(Product Product):IDomainEvent
 {
-	public Class1()
-	{
-	}
+
 }

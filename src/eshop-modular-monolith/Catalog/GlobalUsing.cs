@@ -1,8 +1,3 @@
-﻿using System;
-
-public class Class1
-{
-	public Class1()
-	{
-	}
-}
+﻿global using Shared.DDD;
+global using Catalog.Products.Models;
+global using Catalog.Products.Events;
